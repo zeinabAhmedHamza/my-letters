@@ -32,23 +32,24 @@ class _splashscreenState extends State<splashscreen> {
                  AnimatedTextKit(
               animatedTexts: [
                 TypewriterAnimatedText(
-                  'مس / زينب احمد', textStyle:TextStyle(fontSize:60.0, color: Colors.black),
+                  'مس / زينب احمد', textStyle:const TextStyle(fontSize:60.0, color: Colors.black,
+                  fontFamily: 'CairoPlay' ),
                   textAlign: TextAlign.center,
-                  speed: Duration(milliseconds: 300),
+                  speed: const Duration(milliseconds: 300),
                 ),
                 // first change
 
                    TypewriterAnimatedText(
-                  ' الحروف العربية', textStyle:TextStyle(fontSize:60.0, color: Colors.black),
+                  ' الحروف العربية', textStyle:const TextStyle(fontSize:60.0, color: Colors.black,fontFamily: 'CairoPlay'),
                   textAlign: TextAlign.center,
-                  speed: Duration(milliseconds: 300),
+                  speed: const Duration(milliseconds: 300),
                 ),
 
 
                  TypewriterAnimatedText(
-                  'سنوات 4:2', textStyle:TextStyle(fontSize:60.0, color: Colors.black),
+                  'سنوات 4:2', textStyle:const TextStyle(fontSize:60.0, color: Colors.black,fontFamily: 'CairoPlay'),
                   textAlign: TextAlign.center,
-                  speed: Duration(milliseconds: 300),
+                  speed: const Duration(milliseconds: 300),
                 ),
 
 
