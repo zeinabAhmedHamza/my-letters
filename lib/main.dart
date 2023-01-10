@@ -34,6 +34,7 @@ import 'package:arabic_letters/screen.dart/zzzz.dart';
 import 'package:arabic_letters/splashscreen.dart';
 
 
+
 void main() {
   runApp(const MyApp());
 }
