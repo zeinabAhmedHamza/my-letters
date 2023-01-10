@@ -36,6 +36,7 @@ class _splashscreenState extends State<splashscreen> {
                   textAlign: TextAlign.center,
                   speed: Duration(milliseconds: 300),
                 ),
+                // first change
 
                    TypewriterAnimatedText(
                   ' الحروف العربية', textStyle:TextStyle(fontSize:60.0, color: Colors.black),
