@@ -36,7 +36,8 @@ class intro extends StatelessWidget {
             onTap: () {
            Navigator.of(context).pushReplacementNamed('/homepage');
             },
-            child: Lottie.network('https://assets5.lottiefiles.com/packages/lf20_sXVZLv.json'),),
+            child: Lottie.network('https://assets5.lottiefiles.com/packages/lf20_sXVZLv.json'),
+            ),
         
         ],),
       )

@@ -1,3 +1,9 @@
+
+
+
+
+
+import 'package:arabic_letters/quize.dart/homequize.dart';
 import 'package:flutter/material.dart';
 import 'package:arabic_letters/item.dart/intro.dart';
 import 'package:arabic_letters/screen.dart/aaaa.dart';
@@ -53,8 +59,10 @@ class MyApp extends StatelessWidget {
          ),
 
           debugShowCheckedModeBanner: false,
-        initialRoute:'/splash',
+        initialRoute: '/homequize',
             routes: {
+
+         '/homequize':(context) => homequize(),
           '/intro':(context) => const intro(),
           '/splash':(context) => splashscreen(),
           '/homepage':(context) => homepage(),
